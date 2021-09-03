@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@600&display=swap');
+    </style>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Lastword</title>
+    <style>
+       
+
+        body {
+            height: 100%;
+        }
+
+        .center {
+            margin: auto;
+            width: 60%;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .container {
+            height: 100%;
+        }
+
+        .empty {
+            height: 10em;
+        }
+
+        .text {
+            font-family: 'Roboto Slab', serif;
+            animation-fill-mode:forwards;
+            color: rgb(70, 70, 70);
+            animation: fade-out;
+            animation-duration: 1s;
+            font-size: 5em; 
+            /* transition: opacity 0.5s ease-in-out; */
+
+        }
+
+        @keyframes fade-out {
+            0% {
+                opacity: 0;
+                transform: translateY(1em);
+                
+            }
+           
+            
+            
+            100% {
+                opacity: 1.0;
+                transform: translateY(0em);
+            }
+
+        }
+    </style>
+</head>
+
+
+<body>
+    <div class="container">
+
+        <div class="empty"></div>
+        <div class="center">
+            <p class="text">Still Haven't Thought of One Yet.🤔</p>
+        </div>
+
+    </div>
+</body>
+
+</html>
